@@ -1,6 +1,6 @@
-# Actividad: Arreglos
+# Actividad: Operadores
 ## Descripción
-Programa que captura valores en un arreglo y calcula promedio.
+Programa que muestra el funcionamiento de distintos operadores como el "++" en distintas formas al igual que un poco de la estructura de control if-else, en donde debiamos encontrar distintos errores en el codigo y intentar encontra el resultado de cada problema
 ## Temas aplicados
 - arreglos
 - ciclos
