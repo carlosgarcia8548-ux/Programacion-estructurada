@@ -1,6 +1,7 @@
 # Actividad: Arreglos01
 ## Descripción
 Programa en el cual se enseña como los arreglos funcionan dentro del programa y el como se pueden utilizar.
+*Nota: En la actividad solo pide el git hub por eso en documentacion puse capturas nada mas.
 ## Temas aplicados
 - arreglos
 - arreglos bidimensionales
