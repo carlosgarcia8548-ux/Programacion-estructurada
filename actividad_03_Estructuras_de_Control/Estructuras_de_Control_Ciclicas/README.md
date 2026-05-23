@@ -7,4 +7,27 @@ Programa en el cual se utilizan distintas estructuras de control(do-while, while
 ## Compilación
 gcc main.c -o programa
 ## Ejecución
-./programa
+Ingresa la cantidad de calificaciones: 5
+Ingresa una calificación: 90
+Ingresa una calificación: 80
+Ingresa una calificación: 95
+Ingresa una calificación: 85
+Ingresa una calificación: 70
+El promedio es 84.00
+1. Ingresar otras calificaciones:
+2. Salir
+Ingresa la cantidad de calificaciones: 5
+Ingresa una calificación: -34
+No es una calificacion valida
+Ingresa una calificación: 100.1
+No es una calificacion valida
+Ingresa una calificación: 100
+Ingresa una calificación: 23
+Ingresa una calificación: 62
+Ingresa una calificación: 71
+Ingresa una calificación: 45
+El promedio es 60.20
+Cantidad de materias aprobadas 3 y reprobadas 2
+1. Ingresar otras calificaciones:
+2. Salir
+
