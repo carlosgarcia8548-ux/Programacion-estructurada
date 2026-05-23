@@ -1,6 +1,9 @@
 # Actividad: Funciones+Archivos
 ## Descripción
-Programa que captura valores en un arreglo y calcula promedio.
+Tres programas los cuales enseñan como funcionan ambos temas:
+-Archivos:
+-Funciones:
+-Funciones_Arreglos:
 ## Temas aplicados
 - arreglos
 - ciclos
