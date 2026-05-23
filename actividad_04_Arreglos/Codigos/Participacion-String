@@ -1,0 +1,97 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+/*
+/////////Actividad 1
+-Fgets-Capturar
+-strcpy-
+-strcmp
+-strcat
+-strlen
+*/
+int main()
+{
+    char Alumno1[16]="Antonio";
+    char Alumno2[16];
+    char lista[3][16];
+    printf("%s\n", Alumno1);
+    /*
+    printf("Ingresa el nombre del alumno 2\n");
+    scanf("%s", Alumno2);
+    printf("%s\n", Alumno2);
+    fgets(Alumno2, sizeof(Alumno2), stdin);
+    printf("%s", Alumno2);*/
+    for(int i=0; i<3; i++){
+        printf("Ingresa un nombre\n");
+        fgets(lista[i], sizeof(lista[i]), stdin);
+     }
+     for(int i=0; i<3; i++){
+        printf("%s\n", lista[i]);
+     }
+/////////Actividad 2
+/*
+-strcpy-
+-strcmp
+-strcat
+-strlen
+*/
+    printf("/////////////-strcpy-//////////////\n");
+    //Funciona para pasar un termino de un arreglo a otro
+    char paqueteria[20];
+    char palabra[20];
+    char bidimensional[3][20];
+    //Entre dos arreglos
+    printf("Ingresa una palabra: ");
+    scanf("%s", palabra);
+    strcpy(paqueteria, palabra);
+    printf("%s\n", palabra);
+    printf("%s\n", paqueteria);
+    //Agregar un termino directo
+    strcpy(paqueteria, "Juan");
+    printf("%s\n", paqueteria);
+    //Bidemensional
+    strcpy(bidimensional[0], "Hola");
+    strcpy(bidimensional[1], "Mundo");
+    printf("%s\n", bidimensional[0]);
+    printf("%s\n", bidimensional[1]);
+
+    printf("/////////////-strcmp-//////////////\n");
+    char palabra1[20];
+    char palabra2[20];
+    //Entre dos arreglos
+    printf("Ingresa una palabra: ");
+    scanf("%s", palabra1);
+    printf("Ingresa una palabra: ");
+    scanf("%s", palabra2);
+    if(strcmp(palabra1, palabra2) == 0){
+        printf("Son iguales %s y %s", palabra1, palabra2);
+    }else if(strcmp(palabra1, palabra2) < 0){
+        printf("Es menor %s que %s", palabra1, palabra2);
+    }else if(strcmp(palabra1, palabra2) > 0){
+        printf("Es mayor %s que %s", palabra1, palabra2);
+    }
+    printf("/////////////-strcat-//////////////\n");
+    char primero[20] = "Hola, ";
+    char segundo[20] = "mundo";
+    strcat(primero, segundo);
+    printf("Resultado: %s\n", primero);
+
+    printf("Ingresa una palabra: ");
+    scanf("%s", primero);
+    printf("Ingresa otra palabra para unirla: ");
+    scanf("%s", segundo);
+    strcat(primero, segundo);
+    printf("Union de palabras: %s\n", primero);
+    printf("/////////////-strlen-//////////////\n");
+    char palabra3[40]="Salchipapa";
+    int longitud;
+    longitud=strlen(palabra3);
+    printf("La longitud de %s es %d\n", palabra3, longitud);
+
+    printf("Ingresa una palabra para contar su longitud: ");
+    scanf("%s",palabra3);
+    longitud=strlen(palabra3);
+    printf("La longitud de %s es %d", palabra3, longitud);
+
+    return 0;
+}
