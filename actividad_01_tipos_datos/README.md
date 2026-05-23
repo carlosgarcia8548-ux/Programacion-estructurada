@@ -1,4 +1,4 @@
-# Actividad: Arreglos
+# Actividad: Tipos de datos
 ## Descripción
 Programa que captura valores en un arreglo y calcula promedio.
 ## Temas aplicados
