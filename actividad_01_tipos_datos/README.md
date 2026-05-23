@@ -1,11 +1,9 @@
 # Actividad: Tipos de datos
 ## Descripción
-Programa que captura valores en un arreglo y calcula promedio.
+Actividad enfocada en el entendimiento de los datos y sus funcionamientos con un programa para ver su dirección de memoria de manera que podamos ver sus bytes.
 ## Temas aplicados
-- arreglos
-- ciclos
-- funciones
+- tipos de datos
 ## Compilación
-gcc main.c -o programa
+gcc main.c
 ## Ejecución
 ./programa
