@@ -194,7 +194,6 @@ printf("Jugador %sle diste a %d \n", jugador2, contador2);
 printf("Jugador %sle diste a %d barcos\n", jugador1, contador);
 printf("Jugador %sle diste a %d barcos\n", jugador2, contador2);
 
-////////Actividad 2
 
 return 0;
 }
