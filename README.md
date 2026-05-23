@@ -1,10 +1,9 @@
 # Programacion-estructurada
-Proyecto final: Portafolio de evidencias en GitHub
-# Programación Estructurada
-Nombre del estudiante: Carlos Alberto Garcia Pulido
-Código: 222585487
-Sección: D10
-Profesor: JORGE ERNESTO LOPEZ ARCE DELGADO
+-  Proyecto final: Portafolio de evidencias en GitHub
+-  Nombre del estudiante: Carlos Alberto Garcia Pulido
+-  Código: 222585487
+-  Sección: D10
+-  Profesor: JORGE ERNESTO LOPEZ ARCE DELGADO
 ## Descripción
 Repositorio de actividades y evidencias desarrolladas durante el curso de
 Programación Estructurada en lenguaje C.
