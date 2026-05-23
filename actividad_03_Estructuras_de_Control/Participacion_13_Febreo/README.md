@@ -6,4 +6,11 @@ Programa en el cual se utiliza la estructura if-else para hacer un parametro en 
 ## Compilación
 gcc main.c -o programa
 ## Ejecución
-./programa
+Ingresa tu edad 18      
+Es mayor de edad   
+Ingresa tu edad, tu calificación y la cantidad de materias reprobadas     
+18 90.0 0         
+Puedes obtener la beca      
+Ingresa un numero 2          
+Es par                 
+
