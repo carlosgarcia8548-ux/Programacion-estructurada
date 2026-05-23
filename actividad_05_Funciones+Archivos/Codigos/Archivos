@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct Alumno
+{
+    char nombre[20];//20 bytes
+    float cal;//4 bytes
+    int Act;//4bytes
+    int Derecho;//4bytes
+};
+struct Alumnes
+{
+    char nombre[20];//20 bytes
+    float cal;//4 bytes
+    int Act;//4bytes
+    int Derecho;//4bytes
+};
+union Dato{
+int entero;
+float decimal;
+};
+int main()
+{
+struct Alumno pepe;
+
+/*
+    printf ("Nombre: ");
+    fgets(pepe.nombre,20,stdin);
+    //////////////////////////////
+    printf ("Calificacion: ");
+    scanf("%f", &pepe.cal);
+    /////////////////////////////
+    printf ("Actividad: ");
+    scanf("%d", &pepe.Act);
+    /////////////////////////////
+    printf ("Derecho: ");
+    scanf("%d", &pepe.Derecho);
+    /////////////////////////////
+    printf("Datos\n");
+    printf("%s\n", pepe.nombre);
+    printf("%f\n", pepe.cal);
+    printf("%d\n", pepe.Act);
+    printf("%d\n", pepe.Derecho);
+    */
+    /*
+    struct Alumnes grupo[3];
+    for(int i=0; i<3; i++){
+        printf ("Nombre: ");
+        fgets(grupo[i].nombre,20,stdin);
+            /////////////////////////////
+        printf ("Calificacion: ");
+        scanf("%f", &grupo[i].cal);
+            /////////////////////////////
+        printf ("Actividad: ");
+        scanf("%d", &grupo[i].Act);
+            /////////////////////////////
+        printf ("Derecho: ");
+        scanf("%d", &grupo[i].Derecho);
+        getchar();
+    }
+        for(int i=0; i<3; i++){
+        printf("%s\n", grupo[i].nombre);
+        printf("%f\n", grupo[i].cal);
+        printf("%d\n", grupo[i].Act);
+        printf("%d\n", grupo[i].Derecho);
+    }
+union Dato x;
+x.entero = 10;
+printf("%d\n", x.entero);*/
+    return 0;
+}
