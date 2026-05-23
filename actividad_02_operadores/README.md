@@ -5,7 +5,7 @@ Programa que muestra el funcionamiento de distintos operadores como el "++" en d
 - operadores
 - estructuras de control
 ## Compilación
-gcc main.c -o Actividades de practica
+gcc main.c -o programa
 ## Ejecución
 4   3   6  
 16  
