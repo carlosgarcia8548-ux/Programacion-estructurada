@@ -31,7 +31,7 @@ int main()
 **********Notas*********
 Temp es una apuntador de memoria donde al ser float va a tener una direccion de  memoria que aumenta por 4bytes.
 El numero de datos que la memoria va dar el salto depende del numero de datos que se tienen en el arreglo si no se ha puesto nada en el arreglo el numero de memoria no se guardara y lo utilizara en otras variables,
-como en el ejemplo con dummy que se agrega primero. Se puede poner la variable detnro del arreglo haciendolo mas flexible facilitando estos metodos, pero primero se debe declarar la variable
+como en el ejemplo con dummy que se agrega primero. Se puede poner la variable dentro del arreglo haciendolo mas flexible facilitando estos metodos, pero primero se debe declarar la variable
 */
     return 0;
 }
