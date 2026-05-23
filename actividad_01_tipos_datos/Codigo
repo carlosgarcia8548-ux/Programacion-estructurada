@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdbool.h>   // Para usar tipo bool
+#include <stdint.h>    // Para uintptr_t
+
+int main() {
+    int A = 22;
+    bool B = true;
+    float C = 0.16;
+    double D = 2.71828;
+    char E = 'A';
+    void *F = NULL;
+
+    // Imprimir direcciones en decimal
+    printf("Identificación:A = 22, dirección del entero: %lu\n", (uintptr_t)&A);
+    printf("Identificación:B = true, dirección de booleano: %lu\n", (uintptr_t)&B);
+    printf("Identificación:C = 0.16, dirección de flotante: %lu\n", (uintptr_t)&C);
+    printf("Identificación:D = 2.718281828, dirección de doble: %lu\n", (uintptr_t)&D);
+    printf("Identificación:E = 'A', dirección de caracter: %lu\n", (uintptr_t)&C);
+    printf("Identificación:F = NULL dirección de void*: %lu\n", (uintptr_t)F);
+
+    return 0;
+}
