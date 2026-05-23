@@ -1,1 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+int main()
+{
+/////Actividad 1
+    float temp1, temp2;
+    float temp[24];
+    int dummy;
+    printf("Direccion de memoria de 2 flotantes: temp1 %i, &temp1 %i\n", &temp1, &temp2);
+    printf("Direccion de memoria de temp[2] %i\n", temp);
+    printf("Direccion de memoria &temp[24] %i\n", &temp[24]);
+    printf("Direccion de &dummy: %i\n", &dummy);
+/////Actividad 2
+    int N=4;//Define el tamaño de mi arreglo
+    float temp[N];//Se defina el arreglo
+    temp[0] = 20.5;
+    temp[1] = 19.2;
+    printf("Temperatura 0: %.2f\n", temp[0]);
+    printf("Temperatura 1: %.2f\n", temp[1]);
+    ////-For para pedir datos-//////
+    for(int i = 0; i < N; i++){
+    printf("Ingresa la temp %d:", i+1);
+    scanf("%f", &temp[i]);
+    }
+    ////-For para imprimir datos/////
+    for(int i=0; i<N; i++){
+    printf("temperatura %.2f\n", temp[i]);
+    }
+/*
+**********Notas*********
+Temp es una apuntador de memoria donde al ser float va a tener una direccion de  memoria que aumenta por 4bytes.
+El numero de datos que la memoria va dar el salto depende del numero de datos que se tienen en el arreglo si no se ha puesto nada en el arreglo el numero de memoria no se guardara y lo utilizara en otras variables,
+como en el ejemplo con dummy que se agrega primero. Se puede poner la variable dentro del arreglo haciendolo mas flexible facilitando estos metodos, pero primero se debe declarar la variable
+*/
+    return 0;
+}
