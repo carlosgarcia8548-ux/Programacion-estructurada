@@ -6,5 +6,13 @@ Programas donde se realizan modificaciones de "batalla naval" agregando el tema 
 ## Compilación
 gcc main.c -o programa
 ## Ejecución
-./programa
+~ ~ ~ ~ ~
+~ ~ B ~ ~
+~ O ~ ~ ~
+~ ~ ~ X ~
+~ ~ ~ ~ ~
+
+Carlos Alberto
+JUANITO
+
 
