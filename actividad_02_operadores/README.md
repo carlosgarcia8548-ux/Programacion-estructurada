@@ -13,6 +13,7 @@ gcc main.c -o programa
 5  
 7  
 2.00
+
 Ejercicio5  
 x es mayor que y  
 Errores  
