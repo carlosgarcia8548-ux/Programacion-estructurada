@@ -8,6 +8,7 @@ Programa en el cual se utilizan distintas estructuras de control(do-while, while
 gcc main.c -o programa
 ## Ejecución
 Ingresa la cantidad de calificaciones: 5
+
 Ingresa una calificación: 90
 Ingresa una calificación: 80
 Ingresa una calificación: 95
