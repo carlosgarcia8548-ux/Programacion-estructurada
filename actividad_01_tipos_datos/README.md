@@ -4,6 +4,6 @@ Actividad enfocada en el entendimiento de los datos y sus funcionamientos con un
 ## Temas aplicados
 - tipos de datos
 ## Compilación
-gcc main.c
+gcc main.c-o programa
 ## Ejecución
 ./programa
